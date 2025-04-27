@@ -16,8 +16,8 @@ export default function Footer() {
             className="text-sm text-muted-foreground text-center md:text-left"
             whileHover={{ scale: 1.01 }}
           >
-            &copy; {new Date().getFullYear()} {personalInfo.name}. All rights
-            reserved. ✨
+            &copy; {new Date().getFullYear()} {personalInfo.name}. 
+            Todos los derechos reservados.  ✨ Template base por Rishikesh S. ✨
           </motion.p>
           <motion.p
             className="text-sm text-muted-foreground mt-2 md:mt-0 text-center md:text-left"
@@ -27,7 +27,7 @@ export default function Footer() {
             viewport={{ once: true }}
             whileHover={{ scale: 1.01 }}
           >
-            Built with{" "}
+            Construido con{" "}
             <motion.span
               className="inline-block"
               initial={{ rotate: 0 }}
@@ -36,7 +36,7 @@ export default function Footer() {
             >
               💻
             </motion.span>{" "}
-            and{" "}
+            y{" "}
             <motion.span
               className="inline-block"
               animate={{

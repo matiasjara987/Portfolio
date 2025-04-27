@@ -48,7 +48,7 @@ export default function HeroSection() {
               className="text-xl text-muted-foreground mb-6"
               variants={childVariants}
             >
-              Software Engineer 👨‍💻
+              Ingeniero de Software 👨‍💻
             </motion.p>
 
             <motion.div
@@ -122,15 +122,11 @@ export default function HeroSection() {
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate software engineer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+              🚀 Soy Ingeniero en Informática, desarrollador por naturaleza y apasionado por el aprendizaje continuo.
+Tengo experiencia en desarrollo backend, integraciones en el sector salud, gestión de bases de datos y servicios cloud en Azure.
+Me defino por mi apertura a nuevos desafíos, mi compromiso con la mejora constante y mi enfoque en ofrecer soluciones óptimas y eficientes.
+Como profesional, combino un sólido conocimiento técnico con una mentalidad analítica, orientada a resolver problemas en áreas críticas, documentar procesos y automatizar desarrollos para maximizar resultados.
+Trabajo día a día para fortalecer mi expertise en áreas estratégicas, con la firme convicción de que entregar valor a través de mi trabajo es mi sello distintivo.
             </p>
           </div>
         </MotionWrapper>
