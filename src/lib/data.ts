@@ -13,11 +13,11 @@ export const workExperience = [
     position: "Ingeniero Junior de Integración RIS",
     period: "Dic 2024 - Presente",
     achievements: [
-     "Optimización de consultas y gestión de bases de datos en PostgreSQL: Me dedico a optimizar consultas complejas, mejorando el rendimiento y la eficiencia en la gestión de datos en PostgreSQL, con un enfoque en la reducción de tiempos de respuesta y el uso eficiente de los recursos.",
-"Desarrollo e integración de procesos de mensajería en Mirth Connect: Implemento y mantengo soluciones de integración de datos en sistemas de salud, utilizando Mirth Connect para procesar y transformar mensajes en formatos HL7 y DICOM, asegurando la interoperabilidad entre sistemas médicos.",
-"Revisión y validación de mensajes HL7 y DICOM: Realizo la revisión y validación de mensajes HL7 y DICOM, garantizando que la información médica se transmita de manera precisa y conforme a los estándares de la industria.",
-"Optimización de la eficiencia de sistemas de mensajería y bases de datos: Mejoro los procesos de mensajería en sistemas de salud, con un enfoque en la optimización de la transferencia de datos y la integración eficiente entre plataformas utilizando tecnologías como HL7, DICOM y PostgreSQL.",
-"Tecnologías Utilizadas: MIRTH, HL7, DICOM, PostgreSQL, Microsoft Server, Remote Desktop"
+      "Tecnologías Utilizadas: MIRTH, HL7, DICOM, PostgreSQL, Microsoft Server, Remote Desktop",
+      "Optimización de consultas y gestión de bases de datos en PostgreSQL: Me dedico a optimizar consultas complejas, mejorando el rendimiento y la eficiencia en la gestión de datos en PostgreSQL, con un enfoque en la reducción de tiempos de respuesta y el uso eficiente de los recursos.",
+      "Revisión y validación de mensajes HL7 y DICOM: Realizo la revisión y validación de mensajes HL7 y DICOM, garantizando que la información médica se transmita de manera precisa y conforme a los estándares de la industria.",
+      "Optimización de la eficiencia de sistemas de mensajería y bases de datos: Mejoro los procesos de mensajería en sistemas de salud, con un enfoque en la optimización de la transferencia de datos y la integración eficiente entre plataformas utilizando tecnologías como HL7, DICOM y PostgreSQL.",
+
     ],
   },
   
@@ -81,10 +81,8 @@ export const projects = [
     github: "https://github.com/matiasjara987/InventarioViewer",
     description: [
      "InventarioViewer es una herramienta diseñada específicamente para facilitar el control y seguimiento de productos y existencias en tiempo real, lo que garantiza una administración eficiente del inventario y una mejor toma de decisiones en todo momento.",
-"ofrece una interfaz intuitiva y fácil de usar que permite visualizar datos precisos y actualizados de inventarios, stocks y productos con solo unos pocos clics, eliminando la complejidad de los sistemas tradicionales y mejorando la experiencia del usuario.",
-"gestiona productos, categorías, ubicaciones y otros detalles clave, permitiendo a los usuarios optimizar sus operaciones, ajustar niveles de stock y asegurar que los productos esenciales estén siempre disponibles cuando se necesiten.",
-"envía alertas y notificaciones personalizadas, alertando sobre productos que están por agotarse o que han alcanzado niveles críticos, lo que ayuda a evitar tanto faltantes de inventario como el exceso de productos no vendidos.",
-"y permite generar reportes detallados e históricos del inventario, proporcionando datos clave para tomar decisiones informadas, al mismo tiempo que se integra sin problemas con tus sistemas existentes, asegurando una transición fluida y una experiencia de uso coherente."
+"Ofrece una interfaz intuitiva y fácil de usar que permite visualizar datos precisos y actualizados de inventarios, stocks y productos con solo unos pocos clics, eliminando la complejidad de los sistemas tradicionales y mejorando la experiencia del usuario.",
+"Gestiona productos, categorías, ubicaciones y otros detalles clave, permitiendo a los usuarios optimizar sus operaciones, ajustar niveles de stock y asegurar que los productos esenciales estén siempre disponibles cuando se necesiten.",
     ],
   },
   {
@@ -92,10 +90,8 @@ export const projects = [
     github: "https://github.com/matiasjara987/escalonPiano",
     description: [
       "El proyecto 'Escalera Piano' transforma una escalera común en un instrumento musical interactivo, promoviendo el uso de escaleras en lugar de ascensores o escaleras mecánicas mediante una experiencia lúdica y musical mientras se sube o baja.",
-"utiliza una placa Arduino como el componente principal de control, junto con sensores de presión y movimiento en cada escalón, lo que permite activar diferentes sonidos a medida que se pisa cada peldaño, creando una experiencia única y divertida.",
-"integra un sistema de iluminación LED en cada escalón, que acompaña la reproducción de sonidos, mejorando la inmersión y ofreciendo un aspecto visual atractivo mientras se utiliza la escalera.",
-"el código del proyecto está cuidadosamente estructurado en varios archivos para controlar aspectos como la configuración del sistema, el manejo de las luces LED, la reproducción de melodías y la lectura de sensores, todo integrado de manera eficiente en el archivo principal de Arduino.",
-"el sistema se instala fácilmente en cualquier escalera siguiendo un proceso paso a paso, donde solo se requiere contar con el hardware necesario, el software adecuado y realizar una sencilla configuración para disfrutar de la interacción musical al subir o bajar por la escalera.",
+"Utiliza una placa Arduino como el componente principal de control, junto con sensores de presión y movimiento en cada escalón, lo que permite activar diferentes sonidos a medida que se pisa cada peldaño, creando una experiencia única y divertida.",
+"Integra un sistema de iluminación LED en cada escalón, que acompaña la reproducción de sonidos, mejorando la inmersión y ofreciendo un aspecto visual atractivo mientras se utiliza la escalera.",
     ],
   },
 ];
@@ -141,7 +137,7 @@ export const awards = [
     name: "Git y GitHub Completo Desde Cero ACTUALIZADO",
     issuer: "Udemy",
     date: "Oct 2024",
-    type: "National",
+    type: "International",
     position: "Herramientas",
   },
 ];
