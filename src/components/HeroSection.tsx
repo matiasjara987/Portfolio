@@ -2,6 +2,7 @@ import { personalInfo } from "@/lib/data";
 import { Mail, Github, MapPin, Linkedin } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
+import { FileText } from 'lucide-react';
 
 export default function HeroSection() {
   const containerVariants = {
@@ -97,6 +98,18 @@ export default function HeroSection() {
                 <Linkedin className="h-4 w-4 mr-2" />
                 🔗 LinkedIn
               </motion.a>
+
+              <motion.a
+                href="/Documents/curriculum-vitae-MatiasJara.pdf" // <-- Enlace directo al archivo en la carpeta public/
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors" // <-- Mismas clases para consistencia
+                variants={childVariants} // <-- Mismas variantes de animación
+                whileHover={{ scale: 1.05, color: "#4b5563" }} // <-- Misma animación al pasar el ratón
+              >
+                 <FileText className="h-4 w-4 mr-2" /> 
+                 📄 Ver Curriculum
+              </motion.a>
             </motion.div>
           </div>
 
@@ -123,10 +136,10 @@ export default function HeroSection() {
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               🚀 Soy Ingeniero en Informática, desarrollador por naturaleza y apasionado por el aprendizaje continuo.
-Tengo experiencia en desarrollo backend, integraciones en el sector salud, gestión de bases de datos y servicios cloud en Azure.
-Me defino por mi apertura a nuevos desafíos, mi compromiso con la mejora constante y mi enfoque en ofrecer soluciones óptimas y eficientes.
-Como profesional, combino un sólido conocimiento técnico con una mentalidad analítica, orientada a resolver problemas en áreas críticas, documentar procesos y automatizar desarrollos para maximizar resultados.
-Trabajo día a día para fortalecer mi expertise en áreas estratégicas, con la firme convicción de que entregar valor a través de mi trabajo es mi sello distintivo.
+                  Tengo experiencia en desarrollo backend, integraciones en el sector salud, gestión de bases de datos y servicios cloud en Azure.
+                  Me defino por mi apertura a nuevos desafíos, mi compromiso con la mejora constante y mi enfoque en ofrecer soluciones óptimas y eficientes.
+                  Como profesional, combino un sólido conocimiento técnico con una mentalidad analítica, orientada a resolver problemas en áreas críticas, documentar procesos y automatizar desarrollos para maximizar resultados.
+                  Trabajo día a día para fortalecer mi expertise en áreas estratégicas, con la firme convicción de que entregar valor a través de mi trabajo es mi sello distintivo.
             </p>
           </div>
         </MotionWrapper>
