@@ -17,7 +17,7 @@ export default function Footer() {
             whileHover={{ scale: 1.01 }}
           >
             &copy; {new Date().getFullYear()} {personalInfo.name}. 
-            Todos los derechos reservados.  ✨ Template base por Rishikesh S. ✨
+            Todos los derechos reservados.  
           </motion.p>
           <motion.p
             className="text-sm text-muted-foreground mt-2 md:mt-0 text-center md:text-left"
@@ -27,28 +27,16 @@ export default function Footer() {
             viewport={{ once: true }}
             whileHover={{ scale: 1.01 }}
           >
-            Construido con{" "}
+            Template base por Rishikesh S. 
             <motion.span
               className="inline-block"
               initial={{ rotate: 0 }}
               whileHover={{ rotate: 360 }}
               transition={{ duration: 0.5 }}
             >
-              💻
-            </motion.span>{" "}
-            y{" "}
-            <motion.span
-              className="inline-block"
-              animate={{
-                scale: [1, 1.2, 1],
-              }}
-              transition={{
-                repeat: Infinity,
-                repeatType: "reverse",
-                duration: 1.5,
-              }}
-            >
-              ❤️
+              
+            
+              
             </motion.span>
           </motion.p>
         </motion.div>
